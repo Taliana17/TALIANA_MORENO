@@ -1,0 +1,23 @@
+Problema: Calcular el total de un pedido en una pizzería
+
+Descripción:
+Un cliente llega a la pizzería y desea ordenar una pizza. El sistema debe pedirle al usuario que elija el tamaño de la pizza 
+(pequeña, mediana o grande). Cada tamaño tiene un precio base diferente:
+- Pequeña: $6
+- Mediana: $8
+- Grande: $10
+
+Si el cliente ingresa un tamaño inválido, el pedido debe cancelarse inmediatamente.
+
+Si el tamaño es válido, el sistema le pedirá al cliente:
+- El número de toppings adicionales que quiere (cada topping cuesta $1).
+- Si desea el pedido para llevar o no (respondiendo "si" o "no").
+
+Reglas adicionales:
+- El subtotal se calcula como precio base + costo de toppings.
+- Si el pedido es para llevar y el subtotal es menor a $10, se cobra un costo de entrega de $2.
+- Si no, la entrega es gratis.
+
+Salida esperada:
+El sistema debe mostrar un desglose con el tamaño elegido, el precio base, la cantidad de toppings con su costo, 
+el subtotal, el costo de entrega (si aplica) y el total a pagar.
